@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/speedometer-img.png');
+  height: 100vh;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  alt: speedometer;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+}
+.speed-details-container {
+  color: white;
+  align-self: flex-end;
+}
+.ac-button {
+  background-color: #0b69ff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.brake-button {
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  border-style: solid 2px;
+  padding: 10px;
+}
